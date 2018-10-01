@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link rel="stylesheet" href="../css/template2.css" type="text/css" />
+		<link rel="stylesheet" href="../css/driver.css" type="text/css" />
+		<link rel="stylesheet" href="../css/botton.css" type="text/css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="../js/driver.js"></script>
+		<title>乘車名單</title> 
+	</head> 
+	<body onload="d_list()">
+		<div id=header><img src="../image/i_life.png"/></div>
+		<div id=driverh><p>乘車名單</p></div>
+		<div id=subheader><p id=t1></p></div>
+		<div></br></br></br></br></br></br></br></br></div>
+		<form>
+			<div>
+				<table id=css_table >
+					<tr>
+						<td class=css_td_header>學號</td>
+						<td class=css_td_header>系級</td>
+						<td class=css_td_header>姓名</td>
+						<td class=css_td_header>已乘車</td>
+					</tr>	
+				</table>	
+			</div>
+			<div><input id=driverb type="button" value="提交" onClick="store()"/></div>
+		</form>
+		<div id=root>
+			<a href="javascript:;" onClick="javascript:history.back(-1);"><img id="left" src="../image/arror3.png"/></a>
+			<a href="bus_driver.html"><img id="center" src="../image/center.png"/></a>
+			<img id="right" src="../image/r.png"/>
+		</div>
+	</body>
+</html>

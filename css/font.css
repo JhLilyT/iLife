@@ -1,0 +1,22 @@
+#text p{
+text-align:center;
+font-size:30px;
+margin-top:100px;
+}
+#text_cen{
+text-align:center;
+margin-top:200px;
+vertical-align:middle;
+font-size:50px;
+}
+#warn p{
+margin-top:80px;
+font-size:20px;
+font-weight:bold;
+margin-left:10px;
+}
+#text_con{
+text-align:center;
+font-size:25px;
+margin-top:150px;
+}

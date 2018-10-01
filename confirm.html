@@ -1,0 +1,33 @@
+<html> 
+	<head> 
+		<link rel="stylesheet" href="css/template1.css" type="text/css" />
+		<link rel="stylesheet" href="css/font.css" type="text/css" />
+		<link rel="stylesheet" href="css/botton.css" type="text/css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="js/bus.js"></script>
+		<title>確認訂車信息</title> 
+	</head> 
+	<body onload="con()"> 
+		<div id=header><img src="image/i_life.png"/></div>
+		<div id=subheader><p>交通車預約---確認訂車信息</p></div>
+		<div id=text_con>
+			<p id=t1></p>
+			<p id=t2></p>
+			<p id=t3></p>
+			<p id=t4></p>
+		</div>
+		<div id=leftb>
+			<input class="botton1" name="result" type="button" value="确定" onClick="r()">
+		</div>
+		<div id=rightb>
+			<button class=botton1 name="result" type="submit" value="deny" onClick=<?php echo "location.href='bus.php'";?>>取消</button>
+		</div>  
+		<div id=root>
+			<a href="javascript:;" onClick="javascript:history.back(-1);"><img id="left" src="image/arror3.png"/></a>
+			<a href="menu.html"><img id="center" src="image/center.png"/></a>
+			<img id="right" src="image/r.png"/>
+		</div>
+	</body> 
+</html>

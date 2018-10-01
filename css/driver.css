@@ -1,0 +1,25 @@
+.css_td_header{
+	padding:15px;
+	font-size:25px;
+	font-weight:bold;
+}
+.css_td {
+	padding:10px;
+	font-size:20px;
+	border-bottom:1px solid #dcdcdc;
+	height:30px;
+}
+#css_table {
+	width:90%;
+	text-align:center;
+	margin-top:40px;
+	position:absolute;
+	overflow:auto;
+	top:110px;
+	margin-left:40px;
+}
+input[type="checkbox"]{
+height:20px;
+width:20px;
+vertical-align:middle;
+}
